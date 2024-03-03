@@ -4,7 +4,16 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    num = []
+    while(True):
+        n = int(input())
+        if n <= 0:
+            print('X')
+        elif n > 0:
+            num = [i for i in range(1, n+1)]
+            sum_num = sum(num)
+            break
+    print(sum_num)
 
     return
 
