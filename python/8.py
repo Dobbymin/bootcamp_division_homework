@@ -4,7 +4,14 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
+    n = int(input())
+    number = 1
+    num_sum = [i for i in range(1, n+1)]
+
+    for i in range(1, n + 1):
+        number *= i
+    print(sum(num_sum))
+    print(number)
 
     return
 
