@@ -4,8 +4,8 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    str = input()
+    print(str[::-1])
     return
 
 
