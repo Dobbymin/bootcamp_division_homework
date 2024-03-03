@@ -4,8 +4,12 @@
 """
 
 def main():
-    # 이곳에 코드를 작성해주세요!
-
+    alphabet = input()
+    vowels = ['a', 'e', 'i', 'o', 'u']
+    if alphabet in vowels:
+        print('O')
+    else:
+        print('X')
     return
 
 
